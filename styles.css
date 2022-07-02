@@ -1,0 +1,60 @@
+/*                                  Styling section                     */ 
+
+/*Adding universal font type*/
+*{
+    font-family:sans-serif;
+}
+
+/*Added background color to header and footer*/
+header,footer{
+    background-color:#1F2937;
+}
+
+/*"This website is awesome" specs, class defined*/
+.AwesomeWebsite{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+}
+
+/*Header logo text, class defined*/
+.HeaderLogo{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+/*Chaining together the attributes, secondary text, and the list elements*/
+a,.SecondaryText,li{
+    text-decoration:none;
+    list-style:none;
+    color:#e5e7eb;
+    font-size:18px;
+}
+
+/*Focusing on the buttons, shared property is pixel size, color and font*/
+.SignUp,.SignUp2{
+    background-color:#3882F6;
+    font-size:16px;
+    color: white;
+}
+
+/*Information header text*/
+.InfoHeader {
+    font-size:36px;
+    font-weight:900;
+    color: #1F2937;
+}
+
+/*Quote section background color and text specs by inheri */
+.Quote{
+    background-color:#E5E7EB;
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+}
+
+/*Adding the final styling for the footer*/
+footer{
+    color:#F9FAF8;
+}
+

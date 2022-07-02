@@ -23,21 +23,43 @@ header,footer{
     color:#F9FAF8;
 }
 
+.HeaderImage{
+    color:#E5E7EB;
+    font-weight:100;
+}
+
+.HolderHeader{
+    width:500px;
+    height:200px;
+    background-color: lightslategray;
+
+}
+
 /*Chaining together the attributes, secondary text, and the list elements*/
 a,.SecondaryText,li{
     text-decoration:none;
     list-style:none;
     color:#e5e7eb;
     font-size:18px;
+    font-weight:100;
 }
 
-/*Focusing on the buttons, shared property is pixel size, color and font*/
+/*Focusing on the buttons, shared property is pixel size, color,font,padding*/
 .SignUp,.SignUp2{
     background-color:#3882F6;
     font-size:16px;
     color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius:8px;
 }
 
+.SignUp{
+    border-color:#3882F6;
+}
+
+.SignUp2{
+    border-color:#E5E7EB; 
+}
 /*Information header text*/
 .InfoHeader {
     font-size:36px;
@@ -45,7 +67,7 @@ a,.SecondaryText,li{
     color: #1F2937;
 }
 
-/*Quote section background color and text specs by inheri */
+/*Quote section background color and text specs by inheritance */
 .Quote{
     background-color:#E5E7EB;
     font-size:36px;
@@ -56,5 +78,10 @@ a,.SecondaryText,li{
 /*Adding the final styling for the footer*/
 footer{
     color:#F9FAF8;
+}
+
+.BlueContainer{
+    background-color:#3882F6;
+    color: #E5E7EB;
 }
 

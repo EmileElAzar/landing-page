@@ -23,16 +23,17 @@ header,footer{
     color:#F9FAF8;
 }
 
+/*Paragraph in placeholder for image in header*/
 .HeaderImage{
     color:#E5E7EB;
     font-weight:100;
 }
 
+/*Area to store the image*/
 .HolderHeader{
     width:500px;
     height:200px;
     background-color: lightslategray;
-
 }
 
 /*Chaining together the attributes, secondary text, and the list elements*/
@@ -53,10 +54,12 @@ a,.SecondaryText,li{
     border-radius:8px;
 }
 
+/*Different border for button 1*/
 .SignUp{
     border-color:#3882F6;
 }
 
+/*Different border for button 2*/
 .SignUp2{
     border-color:#E5E7EB; 
 }
@@ -80,8 +83,17 @@ footer{
     color:#F9FAF8;
 }
 
+/*Coloring the div in section above footer*/
 .BlueContainer{
     background-color:#3882F6;
     color: #E5E7EB;
 }
 
+/*Add holders in div below the header*/
+.Holder{
+    width:100px;
+    height:100px;
+    border-color:#3882F6;
+    border-style:solid;
+    border-radius:6px;
+}

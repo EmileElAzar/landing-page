@@ -61,7 +61,8 @@ a,.SecondaryText,li{
 
 /*Different border for button 2*/
 .SignUp2{
-    border-color:#E5E7EB; 
+    border-color:#E5E7EB;   
+
 }
 /*Information header text*/
 .InfoHeader {
@@ -81,18 +82,23 @@ a,.SecondaryText,li{
 /*Adding the final styling for the footer*/
 footer{
     color:#F9FAF8;
+    display:flex;
     padding:10px;
     text-align:center;
     justify-content:center;
     margin-top:70px;
+    border-radius:5px;
 }
 
+.CallToAction{
+    margin:70px 20px 70px 20px;
+}
 /*Coloring the div in section above footer*/
 .BlueContainer{
     background-color:#3882F6;
-    color: #E5E7EB;
-    display:flex;
-    flex-flow: row nowrap;
+    color: #ebe5e5;
+    padding: 10px 20px;
+    border-radius:10px;
 }
 
 /*Add holders in div below the header*/
@@ -109,4 +115,3 @@ footer{
     font-weight: 550;
     font-size: 29px;
 }
-

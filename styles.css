@@ -81,12 +81,18 @@ a,.SecondaryText,li{
 /*Adding the final styling for the footer*/
 footer{
     color:#F9FAF8;
+    padding:10px;
+    text-align:center;
+    justify-content:center;
+    margin-top:70px;
 }
 
 /*Coloring the div in section above footer*/
 .BlueContainer{
     background-color:#3882F6;
     color: #E5E7EB;
+    display:flex;
+    flex-flow: row nowrap;
 }
 
 /*Add holders in div below the header*/
@@ -97,3 +103,10 @@ footer{
     border-style:solid;
     border-radius:6px;
 }
+
+/*Added bold to the Thor God of Thunder paragraph and tweaked font size*/
+.Author{
+    font-weight: 550;
+    font-size: 29px;
+}
+

@@ -5,9 +5,24 @@
     font-family:sans-serif;
 }
 
+body{
+    margin: 0;
+}
+
 /*Added background color to header and footer*/
 header,footer{
     background-color:#1F2937;
+}
+
+/*Adding flexbox to sort the header out*/
+.Top{
+    display:flex;
+    justify-content:space-between;
+}
+
+ul{
+    display:flex;
+    gap: 20px;
 }
 
 /*"This website is awesome" specs, class defined*/
@@ -20,6 +35,7 @@ header,footer{
 /*Header logo text, class defined*/
 .HeaderLogo{
     font-size:24px;
+    display:inline;
     color:#F9FAF8;
 }
 
@@ -62,8 +78,8 @@ a,.SecondaryText,li{
 /*Different border for button 2*/
 .SignUp2{
     border-color:#E5E7EB;   
-
 }
+
 /*Information header text*/
 .InfoHeader {
     font-size:36px;
@@ -77,8 +93,15 @@ a,.SecondaryText,li{
     font-size:36px;
     font-style:italic;
     color:#1F2937;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:center;
+    padding: 70px 30px;
 }
 
+.Author{
+    text-align:right;
+}
 /*Adding the final styling for the footer*/
 footer{
     color:#F9FAF8;
@@ -99,6 +122,14 @@ footer{
     color: #ebe5e5;
     padding: 10px 20px;
     border-radius:10px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+span{
+    align-self:center;
+    flex-wrap: nowrap;
 }
 
 /*Add holders in div below the header*/
@@ -114,4 +145,24 @@ footer{
 .Author{
     font-weight: 550;
     font-size: 29px;
+}
+
+/*Focusing on the some random information div*/
+.ImageHolderSection{
+    /*Makes the image holder section a flex container*/
+    display:flex;
+    /*Specifies we want everything arranged in a row*/
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.Wrapper{
+    display:flex;
+}
+
+h2 {
+    align-self: center;
 }

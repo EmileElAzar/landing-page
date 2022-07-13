@@ -156,13 +156,13 @@ span{
     justify-content: space-evenly;
     padding: 20px;
     flex:auto;
+    flex-wrap: wrap;
 }
 
 .Wrapper{
     display:flex;
-    flex: auto;
+    flex: 1;
     flex-flow: row wrap;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -172,10 +172,24 @@ h2 {
 
 .HolderAndText{
     display:flex;
-    flex-flow: column wrap;
-    align-items: center;
+    flex-flow: row wrap;
     justify-content: space-between;
     flex: 1;
     margin-top: 100px,
 }
 
+.MainHeader{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.HolderHeader{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
